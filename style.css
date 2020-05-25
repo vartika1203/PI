@@ -1,0 +1,54 @@
+
+
+body{
+	font-family: Roboto,sans-serif;
+	box-sizing: border-box;
+	margin:0;
+}
+
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.nav-item a:hover{
+	border: 1px solid #8D8273;
+	border-radius: 10px;
+}
+
+.nav-item{
+	font-weight: 3750;
+	font-size: 1.25rem;
+}
+
+#carouselExampleControls{
+	margin-top: 90px;
+}
+
+#schools{
+	text-transform: uppercase;
+    text-align: center;
+	}
+#schools{
+	margin-top: 30px;
+	background-color: 
+}
+
+#show_all{
+	margin-top: 50px;
+}
+#button{
+	background-color: black;
+
+}
+
+
+
+footer{
+	background-color: #808080;
+	margin-top: 50px;	
+}
+.list-unstyled{
+	font-color: white;
+}
+
