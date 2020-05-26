@@ -1,9 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
 
 
 body{
 	font-family: Roboto,sans-serif;
 	box-sizing: border-box;
 	margin:0;
+	background-color: #CCFFFF;
+}
+
+h1{
+	margin-top: 0px;
 }
 
 
@@ -21,34 +29,118 @@ body{
 	font-size: 1.25rem;
 }
 
+h1,h2{
+	text-transform: uppercase;
+    text-align: center;
+
+}
+h4{
+	text-transform: uppercase;	
+}
+p{
+	font-size: 1.25rem;	
+}
 #carouselExampleControls{
 	margin-top: 90px;
 }
 
 #schools{
-	text-transform: uppercase;
-    text-align: center;
-	}
-#schools{
-	margin-top: 30px;
-	background-color: 
+	
+	background-color: #0099CC;
+}
+.card{
+background-color: #CCFFFF;
+margin-top: 15px;
+margin-bottom: 15px;
 }
 
 #show_all{
-	margin-top: 50px;
+	margin-top: 60px;
 }
 #button{
-	background-color: black;
+	background-color: #CCFFFF;
+}
+
+.btn-primary{
+	color: black;
+}
+#button:hover{
+	color: black;
+	background-color: #B0C4DE;
 
 }
 
+#features-content{
+	padding-left: 80px;
+}
+
+#triangle:before{
+ 	content:"➤ ";
+
+ }
 
 
 footer{
-	background-color: #808080;
+	background-color: #0099CC;
 	margin-top: 50px;	
 }
-.list-unstyled{
-	font-color: white;
+
+.link{
+	text-decoration: none;
+	color:black;	
 }
+
+
+#connect{
+	background-color: #0099CC;
+	position: relative;
+	/*padding:8rem 0;*/
+
+}
+#connect h2{
+	color:black;
+
+}
+#connect input{
+	width:80%;
+	margin: 2em 0;
+	background:none;
+	height:6vh;
+	border:1px solid black;
+	font-family: Roboto;
+	font-weight: 400;
+	padding:20px;
+
+}
+#connect ::placeholder{
+	text-transform: uppercase;
+	color: black;
+
+}
+#connect input:focus{
+	outline:none;
+}
+
+button{
+ 	border: none;
+ 	text-align: center;
+ 	outline:none;
+ 	margin:20px 0;
+ 	padding:20px 40px;
+ 	font-family: Roboto;
+ 	color:#282627;
+ 	background-color: #FFD152;
+ 	letter-spacing: 2px;
+ 	font-weight: 800;
+ 	text-transform: uppercase;
+ 	outline: none;
+ 	 position: absolute;
+  top: 90%;
+  left: 40%;
+
+ }
+
+ .container-fluid{
+ 	padding-top: 90px;
+ }
 
